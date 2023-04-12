@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    overflow-x: hidden;
+    /* todo conteúdo que ultrapassar a horizontal será ignorado (overflor-x:hidden)*/
+}
+
+header {
+    height: 100px;
+    background-color: #000;
+}
+
+.header {
+    max-width: 1024px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logoimg {
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: #B28756;
+}
+
+.menu-opener {
+    display: none;
+}
+
+
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.menu li, .menu ul {
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid #000;
+}
+
+.menu li a:hover, .menu .active a {
+    border-top: 5px solid #B28756;
+    border-bottom: 5px solid #B28756;
+    color: #CCC;
+}
+
+.banner {
+    background-image: url('/complementos/bg.jpg');
+    height: calc(100vh - 100px);
+    background-size:cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    overflow: hidden; 
+
+}
+
+
+.banner #sliders { 
+    width: 1000vw;
+    height: 100%;
+
+}
+
+.banner .slide {
+    display: inline-block;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);    
+    overflow: hidden;
+ 
+}
+
+.banner .slide-Area {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#sliders .hFirst {
+    font-size: 48px;
+    color: white;
+}
+
+.hFirst {
+    margin-bottom: -10px;
+}
+#sliders .hSecond{
+    margin-top: -10px;
+    color: #B28756;
+    font-size: 48px;
+}
+
+
+
+.slideP{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin-top: 25px;
+
+}
+
+.a-touch{
+  text-decoration: none;
+  color: white ;
+  background-color: #B28756;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 12px 37px;
+  font-size: 16px;
+  display: block;
+}
+
+.a-touch:hover {
+    background-color: #b48651bd;
+    font-size: 18px;
+    transition-duration: 0.5s;
+}
+
+
+
+
+
+.banner #slide-ponto {
+    width: 100vw;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    position: absolute;
+    margin-top: -145px;
+}
+
+#slide-ponto .ponto, .ponto2, .ponto3 {
+    width: 15px;
+    height: 15px;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.856);
+    background-color: rgb(0,0,0,0.65);
+    margin-left: 5px;
+    margin-right: 5px; 
+    margin-bottom: 30px;
+    cursor: pointer;   
+}
+
+#slide-ponto .active {
+    background-color: #B28756;
+}
+
+
+
+#container-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: auto;   
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 50px;
+    
+   
+}
+
+
+
+.contains-2 {
+    display: flex;
+    width: 1024px;
+
+}
+.contains-2-child{
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    flex: 1;
+
+}
+
+.contains-2-child-2 {
+    width: 500px;
+    text-align: center;
+}
+
+.a-road {
+    text-decoration: none;
+    color: white ;
+    background-color: #B28756;
+    border-radius: 20px;
+
+    padding: 10px 30px;
+    font-size: 14px;
+
+    
+}
+
+.contains-2-child-2 img {
+    width: 90%;
+    box-shadow:  0px 5px 10px #333;
+}
+
+.contains-4-divs {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}    
+   
+
+
+.banner-1 {
+    flex: 1;
+    border-left: 1.9px solid #333;
+}
+
+.section-projects-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 630px;
+    background-color: #cccccc94;
+    border-radius: 200px;
+    border: 0.2px solid rgba(0, 0, 0, 0.185);
+}
+
+.section-projects-menu  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.section-projects-menu .section-projects-nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+.section-projects-menu .section-projects-nav ul li {
+    padding: 20px;
+}
+
+.section-projects-menu .section-projects-nav ul li a {
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.section-projects-nav-li {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    
+}
+
+.section-projects-menu .section-projects-nav ul li a:hover {
+
+border-bottom: 2px solid #B28756;
+}
+
+.section-project-menu-img {
+    margin: auto;
+    max-width: 1024px;
+    display:grid;
+    grid-template-columns: repeat(3, 2fr);
+    padding-bottom: 40px;
+}
+
+.section-project-menu-img div{
+    margin: 10px;
+}
+
+.section-project-menu-img div img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.section-projects--photo {
+   
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color: #FFF;
+    font-size: 18px;
+   
+}
+
+.section-div-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
+
+.section-div-photo {
+    overflow: hidden; 
+}
+
+.section-div-photo:hover .section-projects--photo {
+    display: flex;
+    background-color: rgba(0,0,0,0.5);
+    width: 16.9%;
+    height: 21.7%;
+   
+}
+
+.section-our-team {
+    background-image:url('/complementos/foto3.jpg');
+    background-size:cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    overflow: hidden; 
+
+}
+
+.section-our-team-master {
+    max-width: 1024px;
+    display: flex;
+    margin: auto;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.section-our-team-contain {
+    margin: 20px;
+    width: 250px;
+    height: 400px ;
+    background-color: white;
+}
+
+.section-our-team-contain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 3px;
+
+}
+
+#rede {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CCC;   
+    width: 35px;
+    height: 35px;
+    border-radius: 17.5px;
+    cursor: pointer;
+    margin: 2px;
+    
+    
+}

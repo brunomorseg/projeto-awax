@@ -1,0 +1,65 @@
+
+
+
+const clicou=()=>{
+const sliders = document.querySelector('#sliders')
+const button = document.querySelector('.ponto')
+const button2 = document.querySelector('.ponto2')
+const button3 = document.querySelector('.ponto3')
+const banner = document.querySelector('.banner')
+
+
+banner.setAttribute('style','background-image: url(/complementos/bg.jpg);')
+
+button.classList.add('active')
+
+button2.setAttribute('class','ponto2')
+
+button3.setAttribute('class','ponto3')
+
+sliders.setAttribute('style','margin-left:0')
+
+
+}
+
+const clicou2=()=>{
+    const sliders = document.querySelector('#sliders')
+    const button = document.querySelector('.ponto')
+    const button2 = document.querySelector('.ponto2')
+    const button3 = document.querySelector('.ponto3')
+    const banner = document.querySelector('.banner')
+
+
+banner.setAttribute('style','background-image: url(/complementos/foto4.jpg);')
+
+    button.setAttribute('class','ponto')
+
+    button2.classList.add('active')
+    
+    button3.setAttribute('class','ponto3')
+
+    sliders.setAttribute('style','margin-left:-100vw')
+    
+    }
+
+const clicou3=()=>{
+        const sliders = document.querySelector('#sliders')
+        const button = document.querySelector('.ponto')
+        const button2 = document.querySelector('.ponto2')
+        const button3 = document.querySelector('.ponto3')
+        const banner = document.querySelector('.banner')
+
+
+        banner.style.backgroundImage = 'url(/complementos/foto6.jpg)'
+        banner.style.backgroundPosition = 'top'
+     
+    
+        button.setAttribute('class','ponto')
+    
+        button2.setAttribute('class','ponto2')
+        
+        button3.classList.add('active')
+    
+        sliders.setAttribute('style','margin-left:-200vw')
+        
+        }
