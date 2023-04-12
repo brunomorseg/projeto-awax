@@ -569,3 +569,9 @@ border-bottom: 2px solid #B28756;
 
 }
 
+@media(max-width:375px) {
+    .contains-2-child-2 {
+        width: auto;
+    }
+}
+
