@@ -454,7 +454,7 @@ border-bottom: 2px solid #B28756;
 
 }
 
-@media(min-width:400px) and (max-width:767px) {
+@media(max-width:430px) {
     nav {
         background-color: #000000da;
         margin-top: 42px;
@@ -493,7 +493,7 @@ border-bottom: 2px solid #B28756;
     }
 
     div.contains-2 {
-        max-width: 767px;
+        width: 100vw;
        display: flex;
        justify-content: center;
        align-items: center;
@@ -523,4 +523,21 @@ border-bottom: 2px solid #B28756;
         
     }
 
+    .responsivo2 {
+        width: 300px;
+    }
+
+    .contains-2-child-2 img {
+        width: 74%;
+    }
+
+    .contains-2-child-2 {
+        width: 350px;
+    }
+
+    .section-our-team-master {
+        flex-direction: column;
+    }
+
 }
+
