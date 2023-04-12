@@ -99,7 +99,7 @@ header {
 }
 
 .banner {
-    background-image: url('/complementos/bg.jpg');
+    background-image: url('./complementos/bg.jpg');
     height: calc(100vh - 100px);
     background-size:cover;
     background-position: bottom;
@@ -371,7 +371,7 @@ border-bottom: 2px solid #B28756;
 }
 
 .section-our-team {
-    background-image:url('/complementos/foto3.jpg');
+    background-image:url('./complementos/foto3.jpg');
     background-size:cover;
     background-position: bottom;
     background-attachment: fixed;

@@ -9,7 +9,7 @@ const button3 = document.querySelector('.ponto3')
 const banner = document.querySelector('.banner')
 
 
-banner.setAttribute('style','background-image: url(/complementos/bg.jpg);')
+banner.setAttribute('style','background-image: url(./complementos/bg.jpg);')
 
 button.classList.add('active')
 
@@ -30,7 +30,7 @@ const clicou2=()=>{
     const banner = document.querySelector('.banner')
 
 
-banner.setAttribute('style','background-image: url(/complementos/foto4.jpg);')
+banner.setAttribute('style','background-image: url(./complementos/foto4.jpg);')
 
     button.setAttribute('class','ponto')
 
@@ -50,7 +50,7 @@ const clicou3=()=>{
         const banner = document.querySelector('.banner')
 
 
-        banner.style.backgroundImage = 'url(/complementos/foto6.jpg)'
+        banner.style.backgroundImage = 'url(./complementos/foto6.jpg)'
         banner.style.backgroundPosition = 'top'
      
     
