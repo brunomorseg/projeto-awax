@@ -443,12 +443,37 @@ border-bottom: 2px solid #B28756;
     }
 }  
 
-@media(max-width:768px) {
+@media(min-width:431px) and (max-width:768px) {
+
+    nav {
+        background-color: #000000da;
+        margin-top: 42px;
+        width: 300px;
+        position: absolute;
+        margin-left: -181px;
+        display: none;
+        cursor: pointer;
+    }
+
+    div.responsivo-menu {
+        display: block;
+        display: flex;
+        
+        margin-right: 50px;
+        border-radius: 4px;
+    }
+
     div.contains-2 {
-        width: 768px;
+        width: calc(100vw - 25px);
+        flex-direction: column;
 }
     .responsivo {
         display: flex; justify-content: center; align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .contains-2-child-2 {
+        width: auto;
     }
   
 
@@ -480,7 +505,6 @@ border-bottom: 2px solid #B28756;
     div.responsivo-menu {
         display: block;
         display: flex;
-        
         margin-right: 50px;
         border-radius: 4px;
     }
@@ -537,6 +561,10 @@ border-bottom: 2px solid #B28756;
 
     .section-our-team-master {
         flex-direction: column;
+    }
+
+    div.banner-1 {
+        border-right: none;
     }
 
 }
