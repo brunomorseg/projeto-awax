@@ -11,6 +11,29 @@ body {
     /* todo conteúdo que ultrapassar a horizontal será ignorado (overflor-x:hidden)*/
 }
 
+div.responsivo-menu {
+    width:50px;
+    height: 50px;
+    background-color: #B28756;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    display: none;
+    
+    
+}
+
+.responsivo-menu .responsivo-menu-traço {
+    margin: 4px;
+    height: 3.2px;
+    width: 80%;
+    border-radius: 4px;
+    background-color: #000;
+    
+}
+
 header {
     height: 100px;
     background-color: #000;
@@ -428,5 +451,76 @@ border-bottom: 2px solid #B28756;
         display: flex; justify-content: center; align-items: center;
     }
   
+
+}
+
+@media(min-width:400px) and (max-width:767px) {
+    nav {
+        background-color: #000000da;
+        margin-top: 42px;
+        width: 300px;
+        position: absolute;
+        margin-left: -181px;
+        display: none;
+        cursor: pointer;
+    }
+
+    .menu ul {
+        flex-direction: column;
+    }
+
+    .menu ul li {
+        height: 75px;
+    }
+
+    .menu ul li a {
+        font-size: 12px;
+    }
+
+    div.responsivo-menu {
+        display: block;
+        display: flex;
+        
+        margin-right: 50px;
+        border-radius: 4px;
+    }
+
+    #sliders .hFirst, #sliders .hSecond {
+        font-size: 34px;
+    }
+    .slideP {
+        font-size: 14px;
+    }
+
+    div.contains-2 {
+        max-width: 767px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column; 
+    }
+    .responsivo {
+        margin-bottom: 30px;
+    }
+
+    .contains-2-child div p {
+        width:240px;
+    }
+
+    .contains-4-divs {
+        flex-direction: column;
+     
+
+    }
+
+    .contains-4-divs .banner-1 {
+        border-left: none;
+        border-right: none;
+    }
+
+    div.section-project-menu-img {
+        grid-template-columns: none;
+        
+    }
 
 }
