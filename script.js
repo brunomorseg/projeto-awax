@@ -66,11 +66,14 @@ const clicou3=()=>{
 
 
 const menu = () => {
-    
+    const banner = document.querySelector('banner-1')
     const nav = document.querySelector('nav')
     
+
+
     if(nav.getAttribute('style') == 'display:none') {
         nav.setAttribute('style','display:block')
+        banner.setAttribute('style','border-right:none')
     } else {  nav.setAttribute('style','display:none')}
     
 }
