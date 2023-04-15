@@ -509,6 +509,7 @@ input.place.input-1-div {
     padding: 8px;
     background-color: #FFF;
     color: #000;
+    
 }
 
 .section-map--info-item {
@@ -594,6 +595,10 @@ input.place.input-1-div {
 
     .contains-2-child-2 {
         width: auto;
+    }
+
+    .section-map--info {
+        width: 70%;
     }
   
 
@@ -711,6 +716,13 @@ input.place.input-1-div {
     div.contains-1 {
         margin-bottom: 25px;
     }
+
+    .section-map--info{
+        width: 70%;
+    }
+
+    
+
 
 }
 
