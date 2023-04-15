@@ -484,11 +484,55 @@ input.place.input-1-div {
 .div-input-button button {
     margin-top: 40px;
     border: none;
+    margin-bottom: 50px;
 }
 
+.section-map {
+    background-image: url('./complementos/mapa.png');
+    height: 300px;
+    background-size:cover;
+    background-position: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
 
+.section-map--area {
+    width: 100vw;
+    max-width: 1140px;
+    margin: auto;
+  
+}
 
+.section-map--info {
+    width: 50%;
+    padding: 8px;
+    background-color: #FFF;
+    color: #000;
+}
 
+.section-map--info-item {
+    display: flex;
+    align-items: center;
+    color: #999;
+}
+
+.section-map--info-item-img {
+    width:30px;
+    height: 30px;
+    display: inline-block;
+    padding: 5px;
+    background-color: #999;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.section-map--info-item-img img {
+    width: 20px;
+    height: auto;
+}
 
 
 
