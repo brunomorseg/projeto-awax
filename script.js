@@ -75,7 +75,21 @@ const menu = () => {
         nav.setAttribute('style','display:block')
         banner.setAttribute('style','border-right:none')
     } else {  nav.setAttribute('style','display:none')}
+
+   
     
+}
+
+
+const treinamento = () => {
+    const teste5 = document.querySelector('.section-projects-nav ul')
+    var nome ='Bruno'
+    var sobrenome = 'Gomes'
+
+    console.log(`O nome dele é ${nome} ${sobrenome}`)
+
+    console.log(teste5)
+
 }
 
 /*
