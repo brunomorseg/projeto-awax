@@ -726,6 +726,12 @@ input.place.input-1-div {
 
 }
 
+@media(max-width:400px) {
+    div.div-input{
+        width: auto;
+    }
+}
+
 @media(max-width:375px) {
     .contains-2-child-2 {
         width: auto;
