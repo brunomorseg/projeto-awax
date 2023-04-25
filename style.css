@@ -662,8 +662,22 @@ div.div-footer-texto p {
 
 }  
 
-@media(min-width:431px) and (max-width:768px) {
+@media(max-height:420px) {
+    #sliders .hFirst, #sliders .hSecond {
+        font-size: 38px;   
+    }
 
+    .slideP {
+        font-size: 15px;
+    }
+    .banner .slide-Area {
+        justify-content:flex-start;
+    }
+}
+
+
+@media(min-width:431px) and (max-width:768px) {
+    
     nav {
         background-color: #000000da;
         margin-top: 42px;
