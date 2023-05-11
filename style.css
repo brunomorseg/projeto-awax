@@ -611,12 +611,7 @@ div.div-footer-texto p {
    margin-right: 30px;
 }
 
-.div-footer-email-container {
-    
-    
-   
 
-}
 
 .div-footer-email-container {
     display: flex;
@@ -737,9 +732,7 @@ div.div-footer-texto p {
         justify-content: center;
     }
 
-    .div-footer-links, .div-footer-texto, .div-footer-email {
-       
-    }
+
 
     .div-footer-email-container {
         height: auto;
@@ -880,5 +873,17 @@ div.div-footer-texto p {
     .contains-2-child-2 {
         width: auto;
     }
+    .photo {
+        width: 40%;
+    }
 }
 
+@media(max-width:345px)
+{
+    .div-input-1 input {
+        width: 40%;
+    }
+    .section-projects-menu {
+        width: auto;
+    }
+}

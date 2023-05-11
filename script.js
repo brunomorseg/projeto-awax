@@ -77,8 +77,11 @@ const menu = () => {
     } else {  nav.setAttribute('style','display:none')}
 
    
-    
+
+
+
 }
+
 
 
 const treinamento = () => {
