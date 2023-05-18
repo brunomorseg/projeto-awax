@@ -621,6 +621,11 @@ div.div-footer-texto p {
     margin: 15px;
     justify-content: center;
     align-items: center;
+    
+}
+
+.help {
+    margin-top: 4px;
 }
 
 .adentro {
@@ -674,9 +679,9 @@ div.div-footer-texto p {
     .banner .slide-Area {
         justify-content:flex-start;
     }
-   .div-footer-email-email {
-        margin-top: 4px;
-    }
+   .help {
+    margin-top: 6px;
+   }
 }
 
 
