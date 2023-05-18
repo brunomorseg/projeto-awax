@@ -644,6 +644,9 @@ div.div-footer-texto p {
     div.contains-2 {
         width: 820px;
     }
+    .container-div { 
+        width: auto;
+    }
 
   }
 
@@ -654,10 +657,13 @@ div.div-footer-texto p {
     div.container-div {
         width: auto;
     }
+    .contains-2-child-2 {
+        width: 47vw;
+    }
 
 }  
 
-@media(max-height:420px) {
+@media(max-height:426px) {
     #sliders .hFirst, #sliders .hSecond {
         font-size: 38px;   
     }
@@ -667,6 +673,9 @@ div.div-footer-texto p {
     }
     .banner .slide-Area {
         justify-content:flex-start;
+    }
+   .div-footer-email-email {
+        margin-top: 4px;
     }
 }
 
